@@ -1,0 +1,22 @@
+.road-map{
+    text-align: center;
+    .road-map-stater{
+        display: flex;
+        max-width: 1080px;
+        margin: 0 auto;
+        gap: 1rem;
+        padding: 1rem;
+        .phase-d h1 {
+            margin: 1rem 0;
+        }
+    }
+    .road-map-stater  div{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+  rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        background-color: #fcd6de29;
+        padding: 1rem;
+        border-radius: 10px;
+        border: 1px solid rgb(235, 126, 126);
+    }
+
+}

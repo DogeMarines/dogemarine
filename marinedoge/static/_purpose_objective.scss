@@ -1,0 +1,55 @@
+.purpose-objective{
+
+    .objective{
+        border-radius: 20px;
+        margin: 0 auto;
+        flex-direction: column;
+        display: flex;
+        max-width: 980px;
+        padding: 1rem;
+        gap:4rem;
+        background-image: linear-gradient(360deg, #fef2fa 0%, #fef2fa 74%);
+        .obj-1{
+            display: flex;
+            max-width: 700px;
+            margin: 0 auto;
+            img{
+                flex: 1;
+                object-fit: contain;
+                height: 180px;
+            }
+            .obj-1-t{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                height: 200px;
+                flex: 1;
+                p {
+                    
+                }
+            }
+           
+        }
+        .obj-2 {
+            max-width: 700px;
+            margin: 0 auto;
+            display: flex;
+            img {
+                flex: 1;
+                order: 1;
+                object-fit: contain;
+                height: 180px;
+            }
+            .obj-2-t {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                height: 200px;
+                p {
+
+                }
+            }
+        }
+    }
+}

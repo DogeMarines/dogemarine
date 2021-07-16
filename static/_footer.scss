@@ -1,0 +1,39 @@
+.footer-container{
+    margin-top: 200px;
+    position: relative;
+    background-color: black;
+    .footer-main{
+        max-width: 1200px;
+        padding: 1rem;
+        margin: 0 auto;
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        // justify-content: space-between;
+        // align-items: center;
+        .footer-cpyr{
+            display: flex;
+            justify-content: space-between;
+            img {
+                border: 8px solid black;
+                border-radius: 50%;
+                width: 200px;
+                position: absolute;
+                left: calc(50% - 75px);
+                top: -130;
+                object-fit: contain;
+            }
+            h2 {
+                padding: 1rem 0;
+                color: white;
+            }
+        }
+        .footer-dis {
+            p {
+                padding: 1rem 0;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.tokenmetric{
+    text-align: center;
+    .marines-tokens{
+        display: flex;
+        max-width: 980px;
+        margin: 0 auto;
+        gap:0.5rem;
+        padding: 1rem;
+    }
+    .token-1{
+       @extend %token-metic;
+       p{
+           text-align: justify;
+       }
+    }
+    .token-title h1{
+        color:#ff2e59
+    }
+    .token-title p {
+        text-align: justify;
+    }
+
+    .token-title ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+            border-radius: 5px;
+            padding: 0.2rem 0.8rem;
+            display: flex;
+            align-items: flex-start;
+                &::before {
+                background: url('mdoge/img/tick.png') left center no-repeat;
+                vertical-align: middle;
+                background-size: 24px auto;
+                width: 30px;
+                display: inline-block;
+                height: 30px;
+                content: '';
+            }
+        }
+    }
+    .token-2 {
+      @extend %token-metic;
+    }
+    .token-3 {
+        @extend %token-metic; 
+    }
+
+}

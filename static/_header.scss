@@ -1,0 +1,68 @@
+header{
+    border-bottom: 1px solid red;
+    .nav-top {
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        .nav-l {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            img {
+            width: 60px;
+            align-self: flex-start;
+            }
+            li{
+                color: #FF2E59;
+            }
+        }
+        .nav-m {
+            li {
+            display: inline-block;
+            font-size: 13px;
+            }
+        }
+        .nav-r {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .fa-telegram-plane {
+                padding: 0 1rem;
+            }
+            .fa-twitter{
+                padding: 0 1rem;
+            }
+                .link-buy-d{
+                border-radius: 5px;
+                padding: 0.2rem 0.8rem;
+                background-color: #ff2e59;
+                display: flex;
+                align-items: center;
+                    &::before {
+                    background: url('mdoge/img/pc.png') left center no-repeat;
+                    vertical-align: middle;
+                    background-size: 24px auto;
+                    width: 30px;
+                    display: inline-block;
+                    height: 30px;
+                    content: '';
+                }
+            }
+
+        }
+    }
+    .check-menu {
+        display: none;
+    }
+    #menu{
+            display: none;
+    }
+
+}
+
+.nav-top > ul li{
+    list-style-type: none;
+}
