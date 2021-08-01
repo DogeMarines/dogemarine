@@ -29,9 +29,29 @@
             }
             .connect-social h3:nth-of-type(2){
                 background-color: #657786;
+                &::before {
+                    background: url('mdoge/img/tele.png') left center no-repeat;
+                    vertical-align: middle;
+                    background-size: 24px auto;
+                    width: 30px;
+                    display: inline-block;
+                    height: 30px;
+                    content: '';
+                }
+
             }
              .connect-social h3:nth-of-type(3){
                 background-color:  #1DA1F2;
+                &::before {
+                    background: url('mdoge/img/tweet.png') left center no-repeat;
+                    vertical-align: middle;
+                    background-size: 24px auto;
+                    width: 30px;
+                    display: inline-block;
+                    height: 30px;
+                    content: '';
+                }
+
             }
         }
     }

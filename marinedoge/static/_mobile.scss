@@ -13,7 +13,7 @@
         }
         .nav-m {
             position: fixed;
-            top:0;
+            top:-100;
             background-color: rgb(29, 28, 28);
             width: 100%;
             transition: all 0.5s;
@@ -21,6 +21,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            overflow: hidden;
         }
         .nav-m li{
             display: block;
@@ -51,12 +52,7 @@
             width: 243px;
         }
     }
-    .road-map-stater{
-        flex-wrap: wrap;
-        .phase-d{
-            max-width: 719px;
-        }
-    }
+    
     .connect{
         .connect-l {
             display: flex;
@@ -103,10 +99,19 @@
     .obj-1{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        img{
+            order: 1;
+            width: 70%;
+        }
     }
     .obj-2 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        img{
+            width: 70%;
+        }
     }
     .main-content{
         .main-content-inner{
@@ -134,9 +139,38 @@
     }
     #menu:checked ~ .nav-m {
         height: 100vh;
+        top: 0;
     }
     #menu:checked ~ .check-menu{
         color: white;
+    }
+
+}
+
+@media (max-width:922px) {
+    .road-map {
+        text-align: center;
+        .road-map-stater {
+            .timeline {
+                display: flex;
+                flex-direction: column-reverse;
+                padding: 2rem;
+                &::before {
+                    position: relative;
+                }
+
+                .fa-globe {
+                    display: none;
+                }
+                .timeline-year {
+                    font-size: 20px;
+                }
+                .inner-content > h3 {
+                }
+                .inner-content > p {
+                }
+            }
+        }
     }
 
 }

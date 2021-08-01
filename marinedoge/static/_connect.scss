@@ -27,12 +27,35 @@
                 display: flex;
                 justify-content: space-between;
             }
-            .connect-social h3:nth-of-type(2){
+            .connect-social a:nth-of-type(2) h3{
                 background-color: #657786;
+                &::before {
+                    background: url('mdoge/img/tele.png') left center no-repeat;
+                    vertical-align: middle;
+                    background-size: 24px auto;
+                    width: 30px;
+                    display: inline-block;
+                    height: 30px;
+                    content: '';
+                }
+
             }
-             .connect-social h3:nth-of-type(3){
+             .connect-social a:nth-of-type(3) h3{
                 background-color:  #1DA1F2;
+                &::before {
+                    background: url('mdoge/img/tweet.png') left center no-repeat;
+                    vertical-align: middle;
+                    background-size: 24px auto;
+                    width: 30px;
+                    display: inline-block;
+                    height: 30px;
+                    content: '';
+                }
             }
+            .connect-social > a{
+                text-decoration: none;
+                color: #ffffff;
+             }
         }
     }
 }
