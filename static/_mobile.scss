@@ -12,6 +12,8 @@
             }
         }
         .nav-m {
+            position: fixed;
+            top:0;
             background-color: rgb(29, 28, 28);
             width: 100%;
             transition: all 0.5s;
@@ -131,6 +133,10 @@
         }
     }
     #menu:checked ~ .nav-m {
-        height: 20vh;
+        height: 100vh;
     }
+    #menu:checked ~ .check-menu{
+        color: white;
+    }
+
 }
