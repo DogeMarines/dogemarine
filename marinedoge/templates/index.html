@@ -84,7 +84,7 @@
                     </div>
                     <div class="mn-cnt-add">
                         <h3>BUY PANCAKESWAP</h3>
-                        <H4>Copy Address</H4>
+                        <H4 class="cadd" Value='0x06ee0b9952110ffeabe273fa229091015c358490'>Copy Address</H4>
                     </div>
                     <div class="mn-cnt-mp">
                         <img src="{% static 'mdoge/img/bsc.png' %}" alt="">
@@ -136,23 +136,26 @@
                         <h1>
                             PANCAKESWAP
                         </h1>
-                        <P>
-                            Under “Slippage Tolerance”, enter a custom value, between 11–15%. Start low and increase if
-                            you get an error message
-                            when swapping
-                        </P>
+                        <ul>
+                            <li>Under “Slippage Tolerance”, enter a custom value, between 11–15%.</li>
+                            <li>Start low and increase if you get an error message when swapping</li>
+                        </ul>
+
+
                     </div>
                     <div class="token-2 token-title">
                         <h1>
                             TOKENOMICS
                         </h1>
-                        <P>
-                            Kawakami Total Supply & Holders
-                            Ownership Renounced
-                            Starting supply = 100,000,000 Tokens
-                            There will be 10 tax on all transactions, 7% of which will be proportionately distributed to
-                            all HODLers automatically.
-                        </P>
+                        <ul>
+                            <li>3% fee liquidity pool locked</li>
+                            <li>3% fee charity wallet</li>
+                            <li>2% fee auto distribute to all holders</li>
+                            <li>2% fee auto burn</li>
+                            <li>1% Market</li>
+                            <li>1% Exchange</li>
+                            <li>1% Dev</li>
+                        </ul>
                     </div>
                     <div class="token-3 token-title">
                         <h1>
@@ -180,38 +183,38 @@
                 <div class="road-map-stater">
                     <div class="phase-1 phase-d">
                         <h1>Phase 1</h1>
-                        <p>Influencer marketing push
-                            Listing on CoinGecko
-                            Listing on CoinMarketCap
-                            Voluntary donation for dog shelters
-                            5000 Holders
+                        <p>
+                            Merchandise: Get your own DogeMarine merch
+                            Meme contest with DogeMariners rewards & marketing campaigns
+                            Contract Security Audit
+                            Coingecko listing
+                            Launch of the "Mariners Room”, a dedicated chat for heavy DMariners Fans and gifs addicts
+                            Additional DEX listing
                         </p>
                     </div>
                     <div class="phase-2 phase-d">
                         <h1>Phase 2</h1>
-                        <p>Influencer marketing push
-                            Listing on CoinGecko
-                            Listing on CoinMarketCap
-                            Voluntary donation for dog shelters
-                            5000 Holders
+                        <p>
+                            Further marketing campaigns, competitions & giveaways
+                            Launch the “DogeMariners coalition” by partnering up with several dog meme coins for a
+                            charity program to donate to dog
+                            shelters because doggos are the best!
                         </p>
                     </div>
                     <div class="phase-3 phase-d">
                         <h1>Phase 3</h1>
-                        <p>Influencer marketing push
-                            Listing on CoinGecko
-                            Listing on CoinMarketCap
-                            Voluntary donation for dog shelters
-                            5000 Holders
+                        <p>
+                            Coinmarket cap listing
+                            Listing on CEX
+                            DMariners NFT’s to contribute to project growth and for charity.
                         </p>
                     </div>
                     <div class="phase-4 phase-d">
                         <h1>Phase 4</h1>
-                        <p>Influencer marketing push
-                            Listing on CoinGecko
-                            Listing on CoinMarketCap
-                            Voluntary donation for dog shelters
-                            5000 Holders
+                        <p>
+                            Quarterly community driven vote on future development of DMariners
+                            Contract development; social media setup; presale marketing, presale whitelist, presale
+                            launch. Binance listing and world domination.
                         </p>
                     </div>
                 </div>
@@ -254,5 +257,7 @@
         </section>
     </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src='{%static "mdoge/js/app.js"%}'></script>
 
 </html>

@@ -108,6 +108,7 @@ header {
     max-width: 850px;
     margin: 0 auto; }
     .main-purpose .purpose h3 {
+      text-align: center;
       font-size: 22px; }
 
 .purpose-objective .objective {
@@ -172,8 +173,8 @@ header {
     padding: 0; }
     .tokenmetric .token-title ul li {
       list-style: none;
+      text-align: start;
       border-radius: 5px;
-      padding: 0.2rem 0.8rem;
       display: flex;
       align-items: flex-start; }
       .tokenmetric .token-title ul li::before {
@@ -183,7 +184,8 @@ header {
         width: 30px;
         display: inline-block;
         height: 30px;
-        content: ''; }
+        content: '';
+        padding-right: 0.8rem; }
 
 .tokenmetric .token-1, .tokenmetric .token-2, .tokenmetric .token-3 {
   border: 1px solid grey;
@@ -201,7 +203,8 @@ header {
     gap: 1rem;
     padding: 1rem; }
     .road-map .road-map-stater .phase-d h1 {
-      margin: 1rem 0; }
+      margin: 1rem 0;
+      text-align: start; }
   .road-map .road-map-stater div {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     background-color: #fcd6de29;
@@ -210,7 +213,7 @@ header {
     border: 1px solid #eb7e7e; }
 
 .connect {
-  border-bottom: 1px solid #ff2e59;
+  border-bottom: 1px solid #ff2e58;
   background-image: linear-gradient(360deg, #f7f0f4 0%, #ffffff 74%);
   display: flex;
   align-items: center; }
@@ -234,6 +237,10 @@ header {
       .connect .connect-l .connect-title .connect-social {
         display: flex;
         justify-content: space-between; }
+      .connect .connect-l .connect-title .connect-social h3:nth-of-type(2) {
+        background-color: #657786; }
+      .connect .connect-l .connect-title .connect-social h3:nth-of-type(3) {
+        background-color: #1DA1F2; }
 
 .footer-container {
   margin-top: 200px;
@@ -276,6 +283,8 @@ header {
       header .nav-top .nav-l .nav-r li {
         padding: 0 0.5rem; }
     header .nav-top .nav-m {
+      position: fixed;
+      top: 0;
       background-color: #1d1c1c;
       width: 100%;
       transition: all 0.5s;
@@ -356,6 +365,8 @@ header {
     width: 169px;
     object-fit: contain; }
   #menu:checked ~ .nav-m {
-    height: 20vh; } }
+    height: 100vh; }
+  #menu:checked ~ .check-menu {
+    color: white; } }
 
 /*# sourceMappingURL=style.css.map */
