@@ -1,23 +1,42 @@
 .road-map{
     text-align: center;
+    h2 {
+        margin: 2rem 0 2rem 0;
+    }
     .road-map-stater{
         display: flex;
+        flex-direction: column;
         max-width: 1080px;
         margin: 0 auto;
-        gap: 1rem;
+        gap: 3rem;
         padding: 1rem;
-        .phase-d h1 {
-            margin: 1rem 0;
-            text-align: start;
+        .timeline{
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            background: #fff;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            align-items: center;
+            padding: 3rem;
+    
+            .fa-globe{
+                padding: 2rem;
+                background-color: #0d5fb0;
+                border-radius: 100%;
+                color: white;
+                position: absolute;
+                right: calc(56.5% + 1vw);
+            }
+            .timeline-year{
+                font-size: 35px;
+                padding: 1rem;
+                border-radius: 12px;
+                background-color:#20B2AA;
+            }
+            .inner-content > h3{
+                font-size: 22px;
+            }
         }
     }
-    .road-map-stater  div{
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-  rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-        background-color: #fcd6de29;
-        padding: 1rem;
-        border-radius: 10px;
-        border: 1px solid rgb(235, 126, 126);
-    }
-
 }

@@ -52,12 +52,7 @@
             width: 243px;
         }
     }
-    .road-map-stater{
-        flex-wrap: wrap;
-        .phase-d{
-            max-width: 719px;
-        }
-    }
+    
     .connect{
         .connect-l {
             display: flex;
@@ -104,10 +99,19 @@
     .obj-1{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        img{
+            order: 1;
+            width: 70%;
+        }
     }
     .obj-2 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        img{
+            width: 70%;
+        }
     }
     .main-content{
         .main-content-inner{
@@ -139,6 +143,34 @@
     }
     #menu:checked ~ .check-menu{
         color: white;
+    }
+
+}
+
+@media (max-width:922px) {
+    .road-map {
+        text-align: center;
+        .road-map-stater {
+            .timeline {
+                display: flex;
+                flex-direction: column-reverse;
+                padding: 2rem;
+                &::before {
+                    position: relative;
+                }
+
+                .fa-globe {
+                    display: none;
+                }
+                .timeline-year {
+                    font-size: 20px;
+                }
+                .inner-content > h3 {
+                }
+                .inner-content > p {
+                }
+            }
+        }
     }
 
 }
