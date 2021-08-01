@@ -22,12 +22,13 @@
             display: flex;
             height: 150px;
             align-items: center;
+            flex-direction: column;
+            gap:1rem;
             h3{
                 border-radius: 5px;
                 padding: 0.7rem;
                 background-color: #FF2E59;
                 display: flex;
-                margin-right: 50px;
                 align-items: center;
                 &::before{
                     background:  url('mdoge/img/pc.png') left center no-repeat;
@@ -48,6 +49,7 @@
         }
         .mn-cnt-mp{
             display: flex;
+            margin-top: 2rem;
             justify-content: space-between;
             width: 100%;
             
