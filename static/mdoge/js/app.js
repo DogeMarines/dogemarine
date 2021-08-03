@@ -14,7 +14,7 @@ $(document).ready(function () {
             $('body').removeClass("lock-body")
         }
     })
-    let launchDate = new Date("Aug 7, 2021 1:40:00").getTime();
+    let launchDate = new Date("Aug 6, 2021 12:30:00").getTime();
 
     // Setup Timer to tick every 1 second
     let timer = setInterval(tick, 1000);
