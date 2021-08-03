@@ -21,8 +21,12 @@ header{
         }
         .nav-m {
             li {
-            display: inline-block;
-            font-size: 13px;
+                display: inline-block;
+                font-size: 13px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
             }
         }
         .nav-r {
@@ -37,23 +41,26 @@ header{
                 padding: 0 1rem;
                 color: black;
             }
-                .link-buy-d{
-                border-radius: 5px;
-                padding: 0.2rem 0.8rem;
-                background-color: #ff2e59;
-                display: flex;
-                align-items: center;
+            a{
+                text-decoration: none;
+                .link-buy-d {
+                    border-radius: 5px;
+                    padding: 0.2rem 0.8rem;
+                    background-color: #ff2e59;
+                    display: flex;
+                    align-items: center;
+                    color: black;
                     &::before {
-                    background: url('mdoge/img/pc.png') left center no-repeat;
-                    vertical-align: middle;
-                    background-size: 24px auto;
-                    width: 30px;
-                    display: inline-block;
-                    height: 30px;
-                    content: '';
+                        background: url('mdoge/img/pc.png') left center no-repeat;
+                        vertical-align: middle;
+                        background-size: 24px auto;
+                        width: 30px;
+                        display: inline-block;
+                        height: 30px;
+                        content: '';
+                    }
                 }
             }
-
         }
     }
     .check-menu {

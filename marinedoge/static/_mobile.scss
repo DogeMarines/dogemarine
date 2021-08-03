@@ -111,6 +111,9 @@
         align-items: center;
         img{
             width: 70%;
+           background-color: red;
+background-blend-mode: multiply;
+
         }
     }
     .main-content{
@@ -123,7 +126,9 @@
                 gap:1rem;
                 h3 {
                     margin: 0;
-                    
+                }
+                p{
+                    font-size: 12.5px;
                 }
             }
             .mn-cnt-mp {
