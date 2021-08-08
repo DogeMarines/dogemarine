@@ -111,6 +111,8 @@
         align-items: center;
         img{
             width: 70%;
+            background-blend-mode: multiply;
+
         }
     }
     .main-content{
@@ -145,6 +147,12 @@
     }
     #menu:checked ~ .check-menu{
         color: white;
+    }
+    .mn-finicail-m{
+        #clockdiv div > span {
+            font-size: 14px;
+        }
+
     }
 
 }

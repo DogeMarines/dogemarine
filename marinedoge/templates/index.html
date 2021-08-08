@@ -8,7 +8,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="{% sass_src 'style.scss' %}" rel="stylesheet" type="text/css" />
-
+    <link rel="shortcut icon" src="{% static 'mdoge/img/main_doge.png' %}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
@@ -92,11 +92,23 @@
                     <div class="mn-finicail-m">
                         <p>Join the Financial Liberation Movement with $DogeMarines</p>
                         <h4>Your Next Automatic BNB Reward will arrive in :</h4>
-                        <div class="countdown">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                        <div class="countown" id='clockdiv'>
+                            <div>
+                                <span class='days'></span>
+                                <div class="smalltext">Days</div>
+                            </div>
+                            <div>
+                                <span class='hours'></span>
+                                <div class="smalltext">Hours</div>
+                            </div>
+                            <div>
+                                <span class="minutes"></span>
+                                <div class="smalltext">Minutes</div>
+                            </div>
+                            <div>
+                                <span class="seconds"></span>
+                                <div class="smalltext">Seconds</div>
+                            </div>
                         </div>
                     </div>
                 </div>
