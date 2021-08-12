@@ -22,6 +22,7 @@
             flex-direction: column;
             justify-content: space-around;
             overflow: hidden;
+            z-index: 1;
         }
         .nav-m li{
             display: block;
