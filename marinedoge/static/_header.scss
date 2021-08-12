@@ -19,13 +19,18 @@ header{
                 color: #FF2E59;
             }
         }
-        .nav-m {
-            li {
-                display: inline-block;
-                font-size: 13px;
-                a {
-                    text-decoration: none;
-                    color: white;
+        .nav-m-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .nav-m {
+                li {
+                    display: inline-block;
+                    font-size: 13px;
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
                 }
             }
         }
